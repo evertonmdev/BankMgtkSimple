@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@200&family=Roboto:wght@100&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @apply text-primary font-poppins;
+}
+
+.logo {
+  @apply hidden lg:block; 
+  @apply w-fit h-fit;
+  @apply text-xl;
+  @apply text-logo font-logo font-extrabold;
+  @apply select-none;
+}
+
+.ActionButton {
+  @apply flex justify-center items-center;
+  @apply bg-white/10 border-action/40 border-2;
+  @apply font-mono font-bold text-md;
+  
+  letter-spacing: 1px;
+}
+
+.RowContainer { @apply flex flex-col md:flex-row ; }
+
+.lottieAnimationOne { @apply w-full h-auto; }
+
+.cardTitleParagraph { @apply flex flex-col gap-2 w-full; }
+
+.cardTitleParagraph h3 { @apply text-action text-2xl font-semibold; }
+
+.cardTitleParagraph p { @apply text-primary text-lg font-normal; }
+
+.cardTitleParagraph ul {
+    @apply flex flex-col gap-2 w-full text-md; 
+}
+
+.cardTitleParagraph ul li span {
+    @apply text-action font-semibold;
+}
+
+
+.FullScreen { @apply w-full h-[100vh]; }
+
+.FlexCenter { @apply flex justify-center items-center; }
+
+.LastInfoCard {
+  text-align: center;
+  gap: 4rem;
+}
+
+
+.LastInfoCard h2 {
+  @apply text-action font-extrabold;
+}
