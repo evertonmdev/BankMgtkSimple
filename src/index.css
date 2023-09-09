@@ -23,12 +23,12 @@
 .ActionButton {
   @apply flex justify-center items-center;
   @apply bg-white/10 border-action/40 border-2;
-  @apply font-mono font-bold text-md;
+  @apply font-mono font-bold text-md select-none;
   
   letter-spacing: 1px;
 }
 
-.RowContainer { @apply flex flex-col md:flex-row ; }
+.RowContainer { @apply flex flex-col md:flex-row justify-center items-center ; }
 
 .lottieAnimationOne { @apply w-full h-auto; }
 
@@ -36,18 +36,18 @@
 
 .cardTitleParagraph h3 { @apply text-action text-2xl font-semibold; }
 
-.cardTitleParagraph p { @apply text-primary text-lg font-normal; }
+.cardTitleParagraph p { @apply text-primary text-md font-normal; }
 
 .cardTitleParagraph ul {
     @apply flex flex-col gap-2 w-full text-md; 
 }
 
 .cardTitleParagraph ul li span {
-    @apply text-action font-semibold;
+    @apply text-action font-semibold text-md;
 }
 
 
-.FullScreen { @apply w-full h-[100vh]; }
+.FullScreen { @apply w-full min-h-[100%]; }
 
 .FlexCenter { @apply flex justify-center items-center; }
 

@@ -21,7 +21,7 @@ function App() {
     <Background />
     <Header />
 
-    <main className="min-h-screen w-full relative flex flex-col gap-20 px-10 mt-[5rem]">
+    <main className="min-h-screen w-full relative flex flex-col gap-10 px-10 mt-[5rem]">
         {
           TelaDeLogin ? <LoginScreen />
           : TelaResister ? <RegisterScreen /> 

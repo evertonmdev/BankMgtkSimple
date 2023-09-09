@@ -28,7 +28,7 @@ const ContextProvider = ({children}) => {
         await Sleep(3200)
         ResetStats()
         localStorage.setItem("Logado", false)
-        window.location = "/"
+        window.location = "/BankMgtkSimple"
     }
 
     const totalBusyF = () => {
@@ -88,6 +88,7 @@ const ContextProvider = ({children}) => {
 
     const TratarValorToBRL = (saldo, alert) => {
         // remove todos os caracteres não numéricos
+        if(!saldo) return ""
         saldo = saldo.toString().replace(/[^0-9]/g, '');
 
         if(parseInt(saldo) < 10 && alert) {

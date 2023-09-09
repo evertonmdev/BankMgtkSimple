@@ -15,10 +15,9 @@ export const Advantages = () => {
                 <span>Acesso Conveniente:</span> Gerencie suas finanças de forma simples e conveniente, a qualquer hora, em qualquer lugar.
               </li>
               <li>
-                <span>Transparência Total:</span>
-Sem taxas escondidas. Nossa transparência significa que você sempre sabe para onde seu dinheiro está indo.</li>
+                <span>Transparência Total:</span> Sem taxas escondidas. Nossa transparência significa que você sempre sabe para onde seu dinheiro está indo.</li>
               <li>
-                <span>Atendimento Personalizado:</span>Nossa equipe de suporte está à disposição para ajudar com todas as suas necessidades financeiras.</li>
+                <span>Atendimento Personalizado:</span> Nossa equipe de suporte está à disposição para ajudar com todas as suas necessidades financeiras.</li>
             </ul>
           </div>
           <Lottie className="lottieAnimationOne" animationData={lottieCadeado} />

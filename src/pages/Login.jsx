@@ -27,7 +27,7 @@ export const LoginScreen = () => {
                 autoClose: 600,
             })
             await Sleep(1500)
-            window.location = "/"
+            window.location = "/BankMgtkSimple"
         }
 
         else {
